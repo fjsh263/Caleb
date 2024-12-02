@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script> 
+  <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script> 
+</head>
+
+<body>
+<a-scene>
+  <a-entity environment="preset: tron; dressingAmount:108;skyColor:black"></a-entity>
+  <!---start of Whare/ House /Museum-->
+  <a-box id="floor" position="0  0  0" rotation="90  0  0" scale="10.5 10.5 .1" src="images/blackhole.jpg" ></a-box>
+  <a-box id="box1" position=" 0  1.473  4.907" rotation="180  0  0" scale="10  3  0.2" color="black"></a-box>
+  <a-box id="box1" position=" 0  1.473  5.027" rotation="180  0  0" scale="10  3  0.2" color="black"></a-box>
+  <a-box id="box2" position=" 0  1.473 -4.907" rotation="180 0  0" scale="10  3  0.2" color="black"></a-box>
+  <a-box id="box3" position="5.049  1.454  -0.008" rotation="0  90  0" scale="10  3  0.2" color="black"></a-box>
+  <a-box id="box4" position=" -5.049 1.454  -0.008" rotation="0  90  0" scale="10  3  0.2" color="black"></a-box>
+  <a-cylinder id="triangle_front" segments-radial="3" position="0  3.874 4.907" rotation="-90  0  0" scale="5.774  0.2  1.8" color="black"></a-cylinder>
+  <a-cylinder id="triangle_back" segments-radial="3" position="0  3.874 -4.907" rotation="-90  0  0" scale="5.774  0.2  1.8" color="black"></a-cylinder>
+  <a-box id="roof_right" position="2.580  4.328  0" rotation="28.433  90  0" scale="10.931 0.20  6.110" color="black"></a-box>
+  <a-box id="roof_right" position="-2.580  4.328  0 " rotation="28.433  -90  0" scale="10.931 0.20  6.110" color="black"></a-box>
+  <a-box id="wall1Taha_Hinengaro" position="0 1.473 4.907" scale="10 3 0.2" rotation="0 0 0" src="images/cross.jpg"></a-box>
+  <a-plane id="art1" src="blackhole.jpg" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
+
+
+
+
+
+  </a-scene>
+</body>
+
+</html>
